@@ -9,7 +9,8 @@ corresponding Celsius values and print the table.
 using namespace std;
 
 
-int main(){
+int main()
+{
 
        /*  Read input as specified in the question.
 	* Print output as specified in the question.
@@ -20,9 +21,16 @@ int main(){
     cin >> S >> E >> W;
 
     //Calculation && Output
-    for(int i = S; i <= E; i = i + W){
-        cout << i << " " << (int)((i-32)*(5.0))/9 << endl; 
+    //We will convert the temperature in Celcius in float type and convert it into integer
+    for(int i = S; i <= E; i = i + W)
+    {
+        int cel = ((i - 32)*5.0)/9;
+        // implicit type casting will be done by compiler from float to int datatype
+
+        //Output
+        cout << i << " " << cel << endl; 
     }
+    return 0;
 }
 
 
