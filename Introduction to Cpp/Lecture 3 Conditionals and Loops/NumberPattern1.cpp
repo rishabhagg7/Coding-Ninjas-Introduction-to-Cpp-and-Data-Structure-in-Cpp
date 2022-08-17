@@ -18,14 +18,14 @@ int main()
 	* Print output as specified in the question.
 	*/
 
-    //Take Output
+    //Take Input
 	int N;
     cin >> N;
     
     //Output
     for(int i = 0; i < N; i++){
 
-        for(int j = 0; j <= i; j++)
+        for(int j = 0; j <= i; j++)   
         {
             cout << i + j + 1;
         }
