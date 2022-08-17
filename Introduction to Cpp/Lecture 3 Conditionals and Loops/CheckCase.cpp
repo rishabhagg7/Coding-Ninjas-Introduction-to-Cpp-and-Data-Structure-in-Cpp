@@ -5,6 +5,7 @@ according to the following rules.
     0, if the character is a lowercase alphabet (a - z)
     -1, if the character is not an alphabet
 */
+
 #include<iostream>
 using namespace std;
 
