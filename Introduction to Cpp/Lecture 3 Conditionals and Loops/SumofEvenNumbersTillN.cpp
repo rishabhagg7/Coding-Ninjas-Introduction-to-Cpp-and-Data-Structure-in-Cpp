@@ -27,7 +27,7 @@ int main(){
     int N;
     cin >> N;
 
-    //Calculate sum of even terms
+    //Calculate sum of even terms using loop
     int sum = 0;
     for(int i = 2; i <= N; i=i+2){
         sum += i;
